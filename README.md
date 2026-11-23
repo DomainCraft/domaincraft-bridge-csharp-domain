@@ -1,5 +1,12 @@
 # DomainCraft C# Domain — `csharp-domain`
 
+[![Moved to the monorepo](https://img.shields.io/badge/moved%20to-Fellmonkey%2FDomainCraft-orange)](https://github.com/Fellmonkey/DomainCraft)
+> This bridge is now developed at Fellmonkey/DomainCraft under bridges/(family)/(layer).
+> 
+> This repository is frozen and kept only so existing owner/repo references keep working.
+> 
+> Use domaincraft generate --bridge (bridge-id) from the new release.
+
 The backend domain layer. Business logic, isolated from the database and the API.
 
 `csharp-domain` builds on the thin `csharp-core` and adds the code you actually own — application services with the Generation Gap, repository ports, security and infrastructure ports. No `DbContext`, no controllers — those are `persistence` and `transport`.
